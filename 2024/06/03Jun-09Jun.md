@@ -1,4 +1,4 @@
-Note: Still being updating
+Note: Published June 7th
                                                                                                                  
 ```                                                                                            :                    
         .,                             ,;                                    ,;      .,    t#,     L.            
@@ -26,6 +26,11 @@ Note: Still being updating
 - **Shellzor** "XOR shellcode framework - Windows, Linux" `https://github.com/vatsalgupta67/Shellzor`
 - **Wapiti** "Web Vulnerability Scanner" `https://github.com/wapiti-scanner/wapiti?s=09`
 - **Proxy DLL Load** "Using undocumented syscalls?" `https://github.com/kleiton0x00/Proxy-DLL-Loads/tree/cfg-bypass`
+- **MDE Enum** `https://github.com/0xsp-SRD/MDE_Enum`
+- **Aleph** "allows you to index large documents" `https://github.com/alephdata/aleph`
+- **Phone tracker** "track phone?" `https://github.com/HunxByts/GhostTrack?s=09`
+- **OSINT Framework** `https://github.com/AnonCatalyst/Coeus-Framework`
+  
 ## Tools (from the crypt)
 
 
@@ -49,6 +54,8 @@ Note: Still being updating
 * **Understanding Malware Patching** `https://medium.com/phrozen/understanding-malware-patching-resources-81650bb6190d`
 * **Phishing like a pro** `https://fortbridge.co.uk/research/add-spf-dmarc-dkim-mx-records-evilginx/?s=09`
 * **Swapalla** "Sleep Technique" `https://oldboy21.github.io/posts/2024/06/sleaping-issues-swappala-and-reflective-dll-friends-forever/?s=09`
+* **Opsec tradecraft** `https://github.com/WesleyWong420/OPSEC-Tradecraft`
+* **The CP Command** `https://x.com/xmodulo/status/1798686601460986088`
 
 ### Windows
 * **AD CS** "ADCS " `https://hadess.io/pwning-the-domain-ad-cs/`
@@ -60,6 +67,11 @@ Note: Still being updating
 * **Windows Hardening** `https://github.com/HotCakeX/Harden-Windows-Security?s=09`
 * **Schedule Task Tampering** "Hafnium ttp" `https://ipurple.team/2024/01/03/scheduled-task-tampering/?s=09`
 * **SMB Cheatsheet** `https://0xdf.gitlab.io/2024/03/21/smb-cheat-sheet.html?s=09`
+* **Get Password Policies** `https://www.login-securite.com/2024/06/03/spray-passwords-avoid-lockouts`
+* **Bypass defender ppl lsass dump protection** `https://tastypepperoni.medium.com/bypassing-defenders-lsass-dump-detection-and-ppl-protection-in-go-7dd85d9a32e6`
+* **ESC14** `https://x.com/BlWasp_/status/1798254119075090908`
+* **Shadow Credentials** `https://www.fortalicesolutions.com/posts/shadow-credentials-workstation-takeover-edition`
+* **Breaking through defender's gates** `https://www.alteredsecurity.com/post/disabling-tamper-protection-and-other-defender-mde-components`
 
 # Threat Intelligence 
 * **QakBOT v5 Deep Malware Analysis** "Come Back To" `https://zw01f.github.io/malware%20analysis/qakbot/`
@@ -75,6 +87,7 @@ Note: Still being updating
 # CVEs
 * **TELERIK #CVE-2024-4358 / #CVE-2024-1800** "Always test the :83 default port on servers, maybe there is Telerik Report Server, you can take advantage of the newly revealed vulnerability." `https://github.com/sinsinology/CVE-2024-4358`
 * ** NETFILTER CVE-2024-1086** `https://arstechnica.com/security/2024/05/federal-agency-warns-critical-linux-vulnerability-being-actively-exploited/`
+* **CVE 2024-4577 php cgi** `https://devco.re/blog/2024/06/06/security-alert-cve-2024-4577-php-cgi-argument-injection-vulnerability-en/?s=09`
 
 # Web Applications
 * "XSS Payloads" `https://github.com/RenwaX23/XSS-Payloads/blob/master/Without-Parentheses.md`
@@ -83,6 +96,8 @@ Note: Still being updating
 cat targets.txt | (gau || hakrawler || katana || gospider) |  gf lfi |  httpx -paths lfi_wordlist.txt -threads 100 -random-agent -x GET,POST  -tech-detect -status-code -follow-redirects -mc 200 -mr "root:[x*]:0:0:"
 ```
 * **SSRF Bypass** `https://x.com/RootMoksha/status/1797821225819148786`
+* **SVG file upload** `https://x.com/RootMoksha/status/1798709502956785973`
+* **Advanced javascript injections** `https://brutelogic.com.br/blog/advanced-javascript-injections/?s=09`
 
 # Windows
 * **Building a DLL Verifier** "Description" `https://scorpiosoftware.net/2024/06/01/building-a-verifier-dll/`
@@ -99,7 +114,7 @@ cat targets.txt | (gau || hakrawler || katana || gospider) |  gf lfi |  httpx -p
 * **Active Directory Canaries** "Setting up canaries for AD" `https://github.com/AirbusProtect/AD-Canaries?s=09`
 * **Windows Recall 2** `https://x.com/tiraniddo/status/1798461595565347164?s=09`
 * **Disable Recall** `https://x.com/0x6d69636b/status/1798390805180379206?s=09`
-* 
+* **NTLM Deprecated in Server 2025** `https://x.com/NerdPyle/status/1797689291642147032`
 
 # Linux 
 * **Invsibility Cloak** `https://dfir.ch/posts/slash-proc/`
