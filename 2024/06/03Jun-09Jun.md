@@ -1,5 +1,21 @@
 Note: Still being updating
-
+                                                                                                                 
+```                                                                                            :                    
+        .,                             ,;                                    ,;      .,    t#,     L.            
+       ,Wt           .               f#i j.               j.               f#i      ,Wt   ;##W.    EW:        ,ft
+      i#D.f.     ;WE.Ef.           .E#t  EW,              EW,            .E#t      i#D.  :#L:WE    E##;       t#E
+     f#f  E#,   i#G  E#Wi         i#W,   E##j             E##j          i#W,      f#f   .KG  ,#D   E###t      t#E
+   .D#i   E#t  f#f   E#K#D:      L#D.    E###D.           E###D.       L#D.     .D#i    EE    ;#f  E#fE#f     t#E
+  :KW,    E#t G#i    E#t,E#f.  :K#Wfff;  E#jG#W;          E#jG#W;    :K#Wfff;  :KW,    f#.     t#i E#t D#G    t#E
+  t#f     E#jEW,     E#WEE##Wt i##WLLLLt E#t t##f         E#t t##f   i##WLLLLt t#f     :#G     GK  E#t  f#E.  t#E
+   ;#G    E##E.      E##Ei;;;;. .E#L     E#t  :K#E:       E#t  :K#E:  .E#L      ;#G     ;#L   LW.  E#t   t#K: t#E
+    :KE.  E#G        E#DWWt       f#E:   E#KDDDD###i      E#KDDDD###i   f#E:     :KE.    t#f f#:   E#t    ;#W,t#E
+     .DW: E#t        E#t f#K;      ,WW;  E#f,t#Wi,,,      E#f,t#Wi,,,    ,WW;     .DW:    f#D#;    E#t     :K#D#E
+       L#,E#t        E#Dfff##E,     .D#; E#t  ;#W:        E#t  ;#W:       .D#;      L#,    G#t     E#t      .E##E
+        jtEE.        jLLLLLLLLL;      tt DWi   ,KK:       DWi   ,KK:        tt       jt     t      ..         G#E
+          t                                                                                                    fE
+                                                                                                                ,
+```
 # Offensive
 
 ## Tools
@@ -9,8 +25,13 @@ Note: Still being updating
 - **Frag Tunnel** "Fragtunnel is a PoC TCP tunneling tool" `https://github.com/efeali/fragtunnel?s=09`
 - **Shellzor** "XOR shellcode framework - Windows, Linux" `https://github.com/vatsalgupta67/Shellzor`
 - **Wapiti** "Web Vulnerability Scanner" `https://github.com/wapiti-scanner/wapiti?s=09`
+- **Proxy DLL Load** "Using undocumented syscalls?" `https://github.com/kleiton0x00/Proxy-DLL-Loads/tree/cfg-bypass`
 ## Tools (from the crypt)
+
+
 ## Infrastructure
+
+
 ## Tradecraft
 * **Bring your own JAR** `https://red.0xbad53c.com/red-team-operations/initial-access/webshells/java-jsp-bring-your-own-jar`
 * **BEEP APi for anti malware** `https://securityliterate.com/beeeeeeeeep-how-malware-uses-the-beep-winapi-function-for-anti-analysis/`
@@ -23,8 +44,13 @@ Note: Still being updating
   - "his guess seems likely because if you know the name of the packaged application there's nothing stopping you listing it's contents, it's only the top level WindowsApps folder which is blocked"
   - turns out that although BUILTIN\Users group should get read and execute access, it only works if the WIN://SYSAPPID security attribute exists in the user's access token.
   - "There are various ways around this but the simplest is to start the process suspended, then use NtSetInformationProcess to swap the token to the one with the attribute. Setting the token after creation does not strip the attributes."
+* **SYSTEM Parent Impersonation** "impersonate via parent; requires sedebug" `https://decoder.cloud/2018/02/02/getting-system/`
+* **Read ASR Rules** `https://x.com/I_Am_Jakoby/status/1797670291025637645`
+* **Understanding Malware Patching** `https://medium.com/phrozen/understanding-malware-patching-resources-81650bb6190d`
+* **Phishing like a pro** `https://fortbridge.co.uk/research/add-spf-dmarc-dkim-mx-records-evilginx/?s=09`
+* **Swapalla** "Sleep Technique" `https://oldboy21.github.io/posts/2024/06/sleaping-issues-swappala-and-reflective-dll-friends-forever/?s=09`
 
-## Windows
+### Windows
 * **AD CS** "ADCS " `https://hadess.io/pwning-the-domain-ad-cs/`
 * **Perfect DLL Hijacking** "Description" `https://elliotonsecurity.com/perfect-dll-hijacking/`
 * **SCCM CRED2 Misconfiguration** `https://github.com/subat0mik/Misconfiguration-Manager/blob/main/attack-techniques/CRED/CRED-2/cred-2_description.md`
@@ -32,13 +58,20 @@ Note: Still being updating
   - Guest - relies on guest account; exists as local and domain account
   - Null - built-in group; Anonymous Logon group -> Pre-Windows 2000 Compatible Access would contain it
 * **Windows Hardening** `https://github.com/HotCakeX/Harden-Windows-Security?s=09`
+* **Schedule Task Tampering** "Hafnium ttp" `https://ipurple.team/2024/01/03/scheduled-task-tampering/?s=09`
+* **SMB Cheatsheet** `https://0xdf.gitlab.io/2024/03/21/smb-cheat-sheet.html?s=09`
 
 # Threat Intelligence 
 * **QakBOT v5 Deep Malware Analysis** "Come Back To" `https://zw01f.github.io/malware%20analysis/qakbot/`
 * **Understand hashing Algorithms** `https://fareedfauzi.github.io/2024/06/01/Hashing-Algo.html`
 * **Menance Unleashed Excel Cobalt Dropper** "malicious Excel document themed around the Ukrainian military to deliver a multi-stage Cobalt Strike loader in 2023" `https://www.fortinet.com/blog/threat-research/menace-unleashed-excel-file-deploys-cobalt-strike-at-ukraine`
 * **REMCOS CAT Campaign** `https://x.com/1ZRR4H/status/1798735303286685905`
-* 
+* **Scanning Phish Sites** `https://checkphish.bolster.ai/?s=09`
+* **Agent Tesla Analysis** `https://0xmrmagnezi.github.io/malware%20analysis/AgentTesla/`
+* **Analysis Kimsuky** `https://www.genians.co.kr/blog/threat_intelligence/interview`
+* **Forest Blizzard** `https://github.com/blackorbird/APT_REPORT/blob/master/APT28/logpoint-etpr-forest-blizzard.pdf?s=09`
+* **Crimson Palace** `https://news.sophos.com/en-us/2024/06/05/operation-crimson-palace-a-technical-deep-dive/`
+
 # CVEs
 * **TELERIK #CVE-2024-4358 / #CVE-2024-1800** "Always test the :83 default port on servers, maybe there is Telerik Report Server, you can take advantage of the newly revealed vulnerability." `https://github.com/sinsinology/CVE-2024-4358`
 * ** NETFILTER CVE-2024-1086** `https://arstechnica.com/security/2024/05/federal-agency-warns-critical-linux-vulnerability-being-actively-exploited/`
@@ -49,6 +82,7 @@ Note: Still being updating
 ```bash
 cat targets.txt | (gau || hakrawler || katana || gospider) |  gf lfi |  httpx -paths lfi_wordlist.txt -threads 100 -random-agent -x GET,POST  -tech-detect -status-code -follow-redirects -mc 200 -mr "root:[x*]:0:0:"
 ```
+* **SSRF Bypass** `https://x.com/RootMoksha/status/1797821225819148786`
 
 # Windows
 * **Building a DLL Verifier** "Description" `https://scorpiosoftware.net/2024/06/01/building-a-verifier-dll/`
@@ -60,6 +94,12 @@ cat targets.txt | (gau || hakrawler || katana || gospider) |  gf lfi |  httpx -p
 * **LDAPS Certificate Deepsive** `https://awakecoding.com/posts/active-directory-ldaps-certificate-selection-deep-dive/`
 * **MS Recall sqlitedb** "Located at C:\Users\Username\appdata\local\microsoft\edge\user data\default\load_statistics.db"
 * **Secure entra id alert and monitoring** `https://securediam.com/f/entra-id-monitoring-and-alerting---are-you-doing-the-basics`
+* **Windows Rootkit Guide** "Summarizes information on rootkit techniques" `https://artemonsecurity.blogspot.com/2024/06/windows-rootkits-guide.html?m=1&s=09`
+* **Windows Memory Internals** "Concepts relevant to both blue/red teams" `https://azr43lkn1ght.github.io/Malware%20Development,%20Analysis%20and%20DFIR%20Series%20-%20Part%20III/?s=09`
+* **Active Directory Canaries** "Setting up canaries for AD" `https://github.com/AirbusProtect/AD-Canaries?s=09`
+* **Windows Recall 2** `https://x.com/tiraniddo/status/1798461595565347164?s=09`
+* **Disable Recall** `https://x.com/0x6d69636b/status/1798390805180379206?s=09`
+* 
 
 # Linux 
 * **Invsibility Cloak** `https://dfir.ch/posts/slash-proc/`
@@ -75,3 +115,4 @@ cat targets.txt | (gau || hakrawler || katana || gospider) |  gf lfi |  httpx -p
 * **Reflections on certificates part 2** `https://theinternetprotocolblog.wordpress.com/2023/02/12/reflections-on-certificates-part-2/`
 * **Pentest Notes** `https://tzero86.gitbook.io/tzero86/scanning/running-scans-with-nmap?s=09`
 * **Guide AWS Pentesting** `https://tzero86.gitbook.io/tzero86/scanning/running-scans-with-nmap?s=09`
+* **Rust Malware Stuff** `https://github.com/BlackSnufkin/Rusty-Playground/tree/main`
