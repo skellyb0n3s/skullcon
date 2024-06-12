@@ -28,7 +28,11 @@ Note: Still being updated
 * **SIGMA Potato** "SeImpersonate privilege escalation tool for Windows 8 - 11 and Windows Server 2012 - 2022 with extensive PowerShell and .NET reflection support." `https://github.com/tylerdotrar/SigmaPotato`
 * **EDR Internals** "Tool to analyze EDR Agents" `https://github.com/outflanknl/edr-internals`
 * **Living off the Orchard** "Lolbins but for macs" `https://www.loobins.io/`
-* 
+* **File-Tunnel** "Tunnel traffic through file" `https://github.com/fiddyschmitt/File-Tunnel`
+* **Hamster Glitch?** "no idea" `https://github.com/0xuf/hamster-glitch`
+* **nowafpls** "Burp plugin to bypass waf" `https://github.com/assetnote/nowafpls`
+* **XXE Injector** `https://github.com/enjoiz/XXEinjector`
+* **Another AMSI Bypass** "Another implementation of disabling the Antimalware Scan Interface (AMSI) by patching the AmsiScanBuffer function in amsi.dll" `https://github.com/berylliumsec/statis`
 
 ## Tools (from the crypt)
 * **DLLirant** "DLLirant is a tool to automatize the DLL Hijacking researches on a specified binary" `https://github.com/redteamsocietegenerale/DLLirant`
@@ -41,14 +45,23 @@ Note: Still being updated
 ## Tradecraft
 * **Comphrensive mimikatz guide** `https://hadess.io/mimikatz-comprehensive-guide`
 * **Ethical Hacking Notes** `https://tzero86.gitbook.io/tzero86`
-
+* **Kerberos AV/EDR Bypass** `https://medium.com/@matanb707/kerberos-av-edr-bypass-abc415cd15df`
+* **PE Section names revisited** `https://www.hexacorn.com/blog/2024/06/08/pe-section-names-re-visited-again-2/`
+* **Host own malware github**🔥 "create issue, drag file, copy link, close issue" `https://x.com/herrcore/status/1772988192678969567`
+* **Script Sentry** "Last year, while on an internal penetration test I was able to abuse several logon script misconfigurations. After that engagement, I kept seeing these same issues crop up engagement after engagement." `https://github.com/techspence/ScriptSentry`
+* **Adversarial LDAP tradecraft** "This blog outlines the results of our research, provides a tool for exposing LDAP telemetry, and offers guidance on detecting malicious LDAP activity." `https://jsecurity101.medium.com/uncovering-adversarial-ldap-tradecraft-658b2deca384`
+* **Catching Impacket** `https://threathunt.blog/impacket-psexec/`
+* **Bypass PS Execution Policies** `https://www.netspi.com/blog/technical-blog/network-penetration-testing/15-ways-to-bypass-the-powershell-execution-policy/`
+* 
 ### Windows
 
 # Threat Intelligence 
 * **ValeyRat** `https://www.zscaler.com/blogs/security-research/technical-analysis-latest-variant-valleyrat`
 * **Threat Actors Used Github as email** " deliver #phishing emails through the legitimate account "notifications@github[.]com". In addition, the sender's name can be manipulated by renaming the attacker's GitHub account." `https://x.com/1ZRR4H/status/1799137435432939892`
 * **ExGoBalt** `https://www.ptsecurity.com/ru-ru/research/pt-esc-threat-intelligence/ex-cobalt-go-red-tehnika-skrytogo-tunnelya/`
-  
+* **DarkGate** `https://blog.talosintelligence.com/darkgate-remote-template-injection/`
+* **Reversed Engineered Terminator Tool** "Reverse engineering Spybot's Terminator tool (Zemana Antimalware driver) to achieve LPE as SYSTEM and unrestricted raw SCSI disk read/write." `https://voidsec.com/reverse-engineering-terminator-aka-zemana-antimalware-antilogger-driver/`
+ 
 # CVEs
 * **Nuclei Template for CVE-2024-4577**  "php cgi" `https://github.com/11whoami99/CVE-2024-4577`
 # Web Applications
@@ -56,14 +69,18 @@ Note: Still being updated
 ```bash
 waybackurls url | grep '\.js$' | awk -F '?' '{print $1}' | sort -u | xargs -I{} python lazyegg[.]py "{}" --js_urls --domains --ips > urls && cat urls | grep '\.' | sort -u  | xargs -I{} httpx -silent -u {} -sc -title -td
 ```
+
 * **JWT Cheat Sheet** "nice diagram of how JWTs are structed" `https://x.com/bountywriteups/status/1799284296731279373`
 * **SSRF Bypass** `https://x.com/bountywriteups/status/1798668531996995705`
+* **Blind SQL Injections** `https://medium.com/@pranshux0x/super-blind-sql-injection-20000-bounty-thousands-of-targets-still-vulnerable-f9b013765448`
 
+* 
 # Windows
 * **WinNative API Programming** `https://leanpub.com/windowsnativeapiprogramming`
 
 # Linux 
-
+* **Linux Insides** `https://github.com/0xAX/linux-insides`
+* **Linux Syscalls** "A couple of useful websites with Linux kernel syscall tables for various architectures and kernel versions" `https://arm64.syscall.sh/` `https://syscalls.mebeim.net/?table=x86/64/x64/latest`
 
 # EDRs
 * Nothing reported
@@ -73,3 +90,4 @@ waybackurls url | grep '\.js$' | awk -F '?' '{print $1}' | sort -u | xargs -I{} 
 * **AWS Hacking IAM** `https://hackingthe.cloud/aws/exploitation/iam_privilege_escalation`
 * **VulnLab Klendathu** "Auth Coercion, Mixed Kerberos Stacks & Domain Backup Keys" `https://www.youtube.com/watch?v=yU4N7CyoKf0`
 * **Modern Attacks Red Vs Blue** `https://x.com/PyroTek3/status/1799130126053155114`
+* **Micro Agent** "Ai that helps make code for you" `https://github.com/BuilderIO/micro-agent`
