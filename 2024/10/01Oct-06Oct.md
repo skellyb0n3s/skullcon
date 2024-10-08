@@ -1,4 +1,4 @@
-Note: published Sept 27
+Note: published October 8
 
 Searchbot v1 results
 
